@@ -1,0 +1,9 @@
+require './config/environment'
+require 'sinatra/activerecord/rake'
+
+
+desc "test"
+task :test do 
+    puts "test"
+end 
+
